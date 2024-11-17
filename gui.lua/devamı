@@ -1,0 +1,802 @@
+--Properties:
+
+Yes.Name = "Yes."
+Yes.Parent = game.CoreGui
+Yes.ResetOnSpawn = false
+
+OpenH.Name = "OpenH"
+OpenH.Parent = Yes
+OpenH.AnchorPoint = Vector2.new(0.5, 0.5)
+OpenH.BackgroundColor3 = Color3.fromRGB(247, 247, 247)
+OpenH.BorderColor3 = Color3.fromRGB(27, 42, 53)
+OpenH.BorderSizePixel = 0
+OpenH.Position = UDim2.new(0.94594568, 0, 0.540501893, 0)
+OpenH.Size = UDim2.new(0.0841098875, 0, 0.0790000036, 0)
+OpenH.ZIndex = 2
+OpenH.Font = Enum.Font.GothamMedium
+OpenH.Text = ""
+OpenH.TextColor3 = Color3.fromRGB(255, 255, 255)
+OpenH.TextScaled = true
+OpenH.TextSize = 14.000
+OpenH.TextWrapped = true
+
+TextLabel.Parent = OpenH
+TextLabel.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.5, 0, 0.500000179, 0)
+TextLabel.Size = UDim2.new(1, 0, 0.966950119, 0)
+TextLabel.ZIndex = 2
+TextLabel.Font = Enum.Font.FredokaOne
+TextLabel.Text = "Jacks"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 25.000
+TextLabel.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextWrapped = true
+
+PenumbraShadow.Name = "PenumbraShadow"
+PenumbraShadow.Parent = OpenH
+PenumbraShadow.AnchorPoint = Vector2.new(0.5, 0.5)
+PenumbraShadow.BackgroundTransparency = 1.000
+PenumbraShadow.BorderColor3 = Color3.fromRGB(27, 42, 53)
+PenumbraShadow.BorderSizePixel = 0
+PenumbraShadow.Position = UDim2.new(0.5, 0, 0.5, 1)
+PenumbraShadow.Size = UDim2.new(1, 18, 1, 18)
+PenumbraShadow.ZIndex = 0
+PenumbraShadow.Image = "rbxassetid://1316045217"
+PenumbraShadow.ImageColor3 = Color3.fromRGB(0, 0, 0)
+PenumbraShadow.ImageTransparency = 0.880
+PenumbraShadow.ScaleType = Enum.ScaleType.Slice
+PenumbraShadow.SliceCenter = Rect.new(10, 10, 118, 118)
+
+UmbraShadow.Name = "UmbraShadow"
+UmbraShadow.Parent = OpenH
+UmbraShadow.AnchorPoint = Vector2.new(0.5, 0.5)
+UmbraShadow.BackgroundTransparency = 1.000
+UmbraShadow.BorderColor3 = Color3.fromRGB(27, 42, 53)
+UmbraShadow.BorderSizePixel = 0
+UmbraShadow.Position = UDim2.new(0.5, 0, 0.5, 6)
+UmbraShadow.Size = UDim2.new(1, 10, 1, 10)
+UmbraShadow.ZIndex = 0
+UmbraShadow.Image = "rbxassetid://1316045217"
+UmbraShadow.ImageColor3 = Color3.fromRGB(0, 0, 0)
+UmbraShadow.ImageTransparency = 0.860
+UmbraShadow.ScaleType = Enum.ScaleType.Slice
+UmbraShadow.SliceCenter = Rect.new(10, 10, 118, 118)
+
+AmbientShadow.Name = "AmbientShadow"
+AmbientShadow.Parent = OpenH
+AmbientShadow.AnchorPoint = Vector2.new(0.5, 0.5)
+AmbientShadow.BackgroundTransparency = 1.000
+AmbientShadow.BorderColor3 = Color3.fromRGB(27, 42, 53)
+AmbientShadow.BorderSizePixel = 0
+AmbientShadow.Position = UDim2.new(0.5, 0, 0.5, 3)
+AmbientShadow.Size = UDim2.new(1, 5, 1, 5)
+AmbientShadow.ZIndex = 0
+AmbientShadow.Image = "rbxassetid://1316045217"
+AmbientShadow.ImageColor3 = Color3.fromRGB(0, 0, 0)
+AmbientShadow.ImageTransparency = 0.800
+AmbientShadow.ScaleType = Enum.ScaleType.Slice
+AmbientShadow.SliceCenter = Rect.new(10, 10, 118, 118)
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(13, 0, 156)), ColorSequenceKeypoint.new(0.56, Color3.fromRGB(8, 63, 64)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(6, 104, 6))}
+UIGradient.Parent = OpenH
+
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = Yes
+MainFrame.AnchorPoint = Vector2.new(0.5, 0.5)
+MainFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MainFrame.BorderColor3 = Color3.fromRGB(27, 42, 53)
+MainFrame.BorderSizePixel = 0
+MainFrame.Position = UDim2.new(0.5, 0, 1.5, 0)
+MainFrame.Size = UDim2.new(0.656290531, 0, 0.712793708, 0)
+
+TextLabel_2.Name = "©"
+TextLabel_2.Parent = MainFrame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.0120000141, 0, 0.904999912, 0)
+TextLabel_2.Size = UDim2.new(0.987999916, 0, 0.0938775539, 0)
+TextLabel_2.Font = Enum.Font.SourceSansBold
+TextLabel_2.Text = "By 1 3 6 9 | UI Demo"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextTransparency = 0.500
+TextLabel_2.TextWrapped = true
+TextLabel_2.TextXAlignment = Enum.TextXAlignment.Left
+
+shadow.Name = "shadow"
+shadow.Parent = MainFrame
+shadow.Active = true
+shadow.AnchorPoint = Vector2.new(0.5, 0.5)
+shadow.BackgroundTransparency = 1.000
+shadow.BorderColor3 = Color3.fromRGB(27, 42, 53)
+shadow.BorderSizePixel = 0
+shadow.Position = UDim2.new(0.5, 5, 0.5, 5)
+shadow.Size = UDim2.new(1.01647055, 0, 1.02857149, 0)
+shadow.ZIndex = 0
+shadow.Image = "rbxassetid://1316045217"
+shadow.ImageColor3 = Color3.fromRGB(0, 0, 0)
+shadow.ImageTransparency = 0.600
+shadow.ScaleType = Enum.ScaleType.Slice
+shadow.SliceCenter = Rect.new(10, 10, 118, 118)
+
+UmbraShadow_2.Name = "UmbraShadow"
+UmbraShadow_2.Parent = MainFrame
+UmbraShadow_2.AnchorPoint = Vector2.new(0.5, 0.5)
+UmbraShadow_2.BackgroundTransparency = 1.000
+UmbraShadow_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+UmbraShadow_2.BorderSizePixel = 0
+UmbraShadow_2.Position = UDim2.new(0.5, 0, 0.5, 6)
+UmbraShadow_2.Size = UDim2.new(1.02352941, 0, 1.04081631, 0)
+UmbraShadow_2.Visible = false
+UmbraShadow_2.ZIndex = 0
+UmbraShadow_2.Image = "rbxassetid://1316045217"
+UmbraShadow_2.ImageColor3 = Color3.fromRGB(0, 0, 0)
+UmbraShadow_2.ImageTransparency = 0.860
+UmbraShadow_2.ScaleType = Enum.ScaleType.Slice
+UmbraShadow_2.SliceCenter = Rect.new(10, 10, 118, 118)
+
+PenumbraShadow_2.Name = "PenumbraShadow"
+PenumbraShadow_2.Parent = MainFrame
+PenumbraShadow_2.AnchorPoint = Vector2.new(0.5, 0.5)
+PenumbraShadow_2.BackgroundTransparency = 1.000
+PenumbraShadow_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+PenumbraShadow_2.BorderSizePixel = 0
+PenumbraShadow_2.Position = UDim2.new(0.5, 0, 0.5, 1)
+PenumbraShadow_2.Size = UDim2.new(1.04235291, 0, 1.0734694, 0)
+PenumbraShadow_2.Visible = false
+PenumbraShadow_2.ZIndex = 0
+PenumbraShadow_2.Image = "rbxassetid://1316045217"
+PenumbraShadow_2.ImageColor3 = Color3.fromRGB(0, 0, 0)
+PenumbraShadow_2.ImageTransparency = 0.880
+PenumbraShadow_2.ScaleType = Enum.ScaleType.Slice
+PenumbraShadow_2.SliceCenter = Rect.new(10, 10, 118, 118)
+
+AmbientShadow_2.Name = "AmbientShadow"
+AmbientShadow_2.Parent = MainFrame
+AmbientShadow_2.AnchorPoint = Vector2.new(0.5, 0.5)
+AmbientShadow_2.BackgroundTransparency = 1.000
+AmbientShadow_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+AmbientShadow_2.BorderSizePixel = 0
+AmbientShadow_2.Position = UDim2.new(0.5, 0, 0.5, 3)
+AmbientShadow_2.Size = UDim2.new(1.01176476, 0, 1.02040815, 0)
+AmbientShadow_2.Visible = false
+AmbientShadow_2.ZIndex = 0
+AmbientShadow_2.Image = "rbxassetid://1316045217"
+AmbientShadow_2.ImageColor3 = Color3.fromRGB(0, 0, 0)
+AmbientShadow_2.ImageTransparency = 0.800
+AmbientShadow_2.ScaleType = Enum.ScaleType.Slice
+AmbientShadow_2.SliceCenter = Rect.new(10, 10, 118, 118)
+
+Exit.Name = "Exit"
+Exit.Parent = MainFrame
+Exit.AnchorPoint = Vector2.new(0.5, 0.5)
+Exit.BackgroundColor3 = Color3.fromRGB(255, 65, 68)
+Exit.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Exit.BorderSizePixel = 0
+Exit.Position = UDim2.new(0.975233495, 0, 0.0354887135, 0)
+Exit.Size = UDim2.new(0.0799999982, 0, 0.127000004, 0)
+Exit.ZIndex = 2
+Exit.Font = Enum.Font.FredokaOne
+Exit.Text = ""
+Exit.TextColor3 = Color3.fromRGB(255, 65, 68)
+Exit.TextScaled = true
+Exit.TextSize = 14.000
+Exit.TextWrapped = true
+
+UICorner.Parent = Exit
+
+TextLabel_3.Parent = Exit
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_3.Position = UDim2.new(0, 0, 1.68660407e-07, 0)
+TextLabel_3.Size = UDim2.new(1.00000012, 0, 1, 0)
+TextLabel_3.ZIndex = 3
+TextLabel_3.Font = Enum.Font.FredokaOne
+TextLabel_3.Text = "X"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+MainFrame_2.Name = "MainFrame"
+MainFrame_2.Parent = MainFrame
+MainFrame_2.AnchorPoint = Vector2.new(0.5, 0.5)
+MainFrame_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MainFrame_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+MainFrame_2.BorderSizePixel = 0
+MainFrame_2.Position = UDim2.new(0.5, 0, 0.5, 0)
+MainFrame_2.Rotation = 3.000
+MainFrame_2.Size = UDim2.new(1, 0, 1, 0)
+MainFrame_2.ZIndex = 0
+
+shadow_2.Name = "shadow"
+shadow_2.Parent = MainFrame_2
+shadow_2.Active = true
+shadow_2.AnchorPoint = Vector2.new(0.5, 0.5)
+shadow_2.BackgroundTransparency = 1.000
+shadow_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+shadow_2.BorderSizePixel = 0
+shadow_2.Position = UDim2.new(0.5, 5, 0.5, 5)
+shadow_2.Size = UDim2.new(1.01647055, 0, 1.02857149, 0)
+shadow_2.ZIndex = 0
+shadow_2.Image = "rbxassetid://1316045217"
+shadow_2.ImageColor3 = Color3.fromRGB(0, 0, 0)
+shadow_2.ImageTransparency = 0.600
+shadow_2.ScaleType = Enum.ScaleType.Slice
+shadow_2.SliceCenter = Rect.new(10, 10, 118, 118)
+
+UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(13, 0, 156)), ColorSequenceKeypoint.new(0.56, Color3.fromRGB(8, 63, 64)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(6, 104, 6))}
+UIGradient_2.Parent = MainFrame_2
+
+Line.Name = "Line"
+Line.Parent = MainFrame
+Line.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Line.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Line.BorderSizePixel = 0
+Line.Position = UDim2.new(0.180000007, 0, 0.200000003, 0)
+Line.Size = UDim2.new(0.647058845, 0, 0.00408163248, 0)
+
+Voting.Name = "Voting"
+Voting.Parent = MainFrame
+Voting.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Voting.BackgroundTransparency = 1.000
+Voting.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Voting.BorderSizePixel = 0
+Voting.Position = UDim2.new(0.00164610974, 0, -0.0109889973, 0)
+Voting.Size = UDim2.new(0.998353839, 0, 0.20408164, 0)
+Voting.Font = Enum.Font.Unknown
+Voting.Text = "Jack Türünü Seçiniz!"
+Voting.TextColor3 = Color3.fromRGB(255, 255, 255)
+Voting.TextScaled = true
+Voting.TextSize = 14.000
+Voting.TextWrapped = true
+
+UIGradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(13, 0, 156)), ColorSequenceKeypoint.new(0.56, Color3.fromRGB(8, 63, 64)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(6, 104, 6))}
+UIGradient_3.Parent = MainFrame
+
+ScrollingFrame.Parent = MainFrame
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame.BackgroundTransparency = 1.000
+ScrollingFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ScrollingFrame.BorderSizePixel = 0
+ScrollingFrame.Position = UDim2.new(0.0812500119, 0, 0.116611518, 0)
+ScrollingFrame.Size = UDim2.new(0.82015264, 0, 0.741568387, 0)
+ScrollingFrame.CanvasPosition = Vector2.new(0, 150)
+
+Map.Name = "Map"
+Map.Parent = ScrollingFrame
+Map.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Map.BackgroundTransparency = 1.000
+Map.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Map.BorderSizePixel = 0
+Map.Position = UDim2.new(0.0790000036, 0, 0.100000001, 0)
+Map.Size = UDim2.new(0.197999999, 0, 0.200000003, 0)
+Map.ZIndex = 2
+Map.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+Map.ImageTransparency = 1.000
+
+TextLabel_4.Parent = Map
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Position = UDim2.new(0.0158140156, 0, -0.400000036, 0)
+TextLabel_4.Size = UDim2.new(0.75999999, 0, 0.379999995, 0)
+TextLabel_4.Font = Enum.Font.FredokaOne
+TextLabel_4.Text = "Bu script 50 GJ çektirir."
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
+
+TextButton.Parent = Map
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(-0.0499999598, 0, 1.05999994, 0)
+TextButton.Size = UDim2.new(0.936413944, 0, 0.280000031, 0)
+TextButton.ZIndex = 2
+TextButton.Font = Enum.Font.FredokaOne
+TextButton.Text = ""
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextSize = 14.000
+
+TextLabel_5.Parent = TextButton
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_5.BorderSizePixel = 0
+TextLabel_5.Size = UDim2.new(1, 0, 1, 0)
+TextLabel_5.ZIndex = 2
+TextLabel_5.Font = Enum.Font.FredokaOne
+TextLabel_5.Text = "GJ (Gramer Jack)"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextWrapped = true
+
+UICorner_2.Parent = TextButton
+
+TextLabel_6.Parent = TextButton
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_6.BorderSizePixel = 0
+TextLabel_6.Position = UDim2.new(-0.137263909, 0, -3.76311588, 0)
+TextLabel_6.Size = UDim2.new(0, 192, 0, 241)
+TextLabel_6.ZIndex = -1
+TextLabel_6.Font = Enum.Font.LuckiestGuy
+TextLabel_6.Text = "GJ"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 0, 0)
+TextLabel_6.TextScaled = true
+TextLabel_6.TextSize = 1.000
+TextLabel_6.TextWrapped = true
+
+shadow_3.Name = "shadow"
+shadow_3.Parent = TextLabel_6
+shadow_3.Active = true
+shadow_3.AnchorPoint = Vector2.new(0.5, 0.5)
+shadow_3.BackgroundTransparency = 1.000
+shadow_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
+shadow_3.BorderSizePixel = 0
+shadow_3.Position = UDim2.new(0.467122883, 5, 0.474334717, 5)
+shadow_3.Size = UDim2.new(1.14008331, 0, 1.08483291, 0)
+shadow_3.Image = "rbxassetid://1316045217"
+shadow_3.ImageColor3 = Color3.fromRGB(0, 0, 0)
+shadow_3.ImageTransparency = 0.700
+shadow_3.ScaleType = Enum.ScaleType.Slice
+shadow_3.SliceCenter = Rect.new(10, 10, 118, 118)
+
+UICorner_3.CornerRadius = UDim.new(0.200000003, 8)
+UICorner_3.Parent = TextLabel_6
+
+UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(13, 0, 156)), ColorSequenceKeypoint.new(0.56, Color3.fromRGB(8, 63, 64)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 0, 0))}
+UIGradient_4.Parent = TextButton
+
+TextBox.Parent = Map
+TextBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.BorderSizePixel = 0
+TextBox.Position = UDim2.new(-0.196114853, 0, 1.37285614, 0)
+TextBox.Size = UDim2.new(0, 200, 0, 50)
+TextBox.Font = Enum.Font.RobotoMono
+TextBox.Text = "1 - 100.000"
+TextBox.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.TextScaled = true
+TextBox.TextSize = 14.000
+TextBox.TextWrapped = true
+
+UICorner_4.CornerRadius = UDim.new(0.200000003, 8)
+UICorner_4.Parent = TextBox
+
+Map_2.Name = "Map"
+Map_2.Parent = ScrollingFrame
+Map_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Map_2.BackgroundTransparency = 1.000
+Map_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Map_2.BorderSizePixel = 0
+Map_2.Position = UDim2.new(0.400999993, 0, 0.100000001, 0)
+Map_2.Size = UDim2.new(0.197999999, 0, 0.200000003, 0)
+Map_2.ZIndex = 2
+Map_2.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+Map_2.ImageTransparency = 1.000
+
+TextLabel_7.Parent = Map_2
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_7.BorderSizePixel = 0
+TextLabel_7.Position = UDim2.new(0.0341998748, 0, -0.400000036, 0)
+TextLabel_7.Size = UDim2.new(0.75999999, 0, 0.379999995, 0)
+TextLabel_7.Font = Enum.Font.FredokaOne
+TextLabel_7.Text = "Bu script 50 JJ çektirir."
+TextLabel_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.TextScaled = true
+TextLabel_7.TextSize = 14.000
+TextLabel_7.TextWrapped = true
+
+OnayButton.Name = "OnayButton"
+OnayButton.Parent = Map_2
+OnayButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+OnayButton.BorderColor3 = Color3.fromRGB(27, 42, 53)
+OnayButton.BorderSizePixel = 0
+OnayButton.Position = UDim2.new(-0.0499995835, 0, 1.05999994, 0)
+OnayButton.Size = UDim2.new(0.930000186, 0, 0.280000031, 0)
+OnayButton.ZIndex = 2
+OnayButton.Font = Enum.Font.FredokaOne
+OnayButton.Text = ""
+OnayButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+OnayButton.TextSize = 14.000
+
+TextLabel_8.Parent = OnayButton
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_8.BorderSizePixel = 0
+TextLabel_8.Size = UDim2.new(1, 0, 1, 0)
+TextLabel_8.ZIndex = 2
+TextLabel_8.Font = Enum.Font.FredokaOne
+TextLabel_8.Text = "JJ (Jumping Jack)"
+TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.TextScaled = true
+TextLabel_8.TextSize = 14.000
+TextLabel_8.TextWrapped = true
+
+UICorner_5.Parent = OnayButton
+
+TextLabel_9.Parent = OnayButton
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_9.BorderSizePixel = 0
+TextLabel_9.Position = UDim2.new(-0.133684218, 0, -3.76311588, 0)
+TextLabel_9.Size = UDim2.new(0, 192, 0, 241)
+TextLabel_9.ZIndex = -1
+TextLabel_9.Font = Enum.Font.LuckiestGuy
+TextLabel_9.Text = "JJ"
+TextLabel_9.TextColor3 = Color3.fromRGB(255, 0, 0)
+TextLabel_9.TextScaled = true
+TextLabel_9.TextSize = 1.000
+TextLabel_9.TextWrapped = true
+
+shadow_4.Name = "shadow"
+shadow_4.Parent = TextLabel_9
+shadow_4.Active = true
+shadow_4.AnchorPoint = Vector2.new(0.5, 0.5)
+shadow_4.BackgroundTransparency = 1.000
+shadow_4.BorderColor3 = Color3.fromRGB(27, 42, 53)
+shadow_4.BorderSizePixel = 0
+shadow_4.Position = UDim2.new(0.467122883, 5, 0.474334717, 5)
+shadow_4.Size = UDim2.new(1.14008331, 0, 1.08483291, 0)
+shadow_4.Image = "rbxassetid://1316045217"
+shadow_4.ImageColor3 = Color3.fromRGB(0, 0, 0)
+shadow_4.ImageTransparency = 0.700
+shadow_4.ScaleType = Enum.ScaleType.Slice
+shadow_4.SliceCenter = Rect.new(10, 10, 118, 118)
+
+UICorner_6.CornerRadius = UDim.new(0.200000003, 8)
+UICorner_6.Parent = TextLabel_9
+
+UIGradient_5.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(13, 0, 156)), ColorSequenceKeypoint.new(0.56, Color3.fromRGB(8, 63, 64)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 0, 0))}
+UIGradient_5.Parent = OnayButton
+
+TextBox_2.Parent = OnayButton
+TextBox_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBox_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextBox_2.BorderSizePixel = 0
+TextBox_2.Position = UDim2.new(-0.169755355, 0, 1.10782576, 0)
+TextBox_2.Size = UDim2.new(0, 200, 0, 50)
+TextBox_2.Font = Enum.Font.RobotoMono
+TextBox_2.Text = "1 - 100.000"
+TextBox_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextBox_2.TextScaled = true
+TextBox_2.TextSize = 14.000
+TextBox_2.TextWrapped = true
+
+UICorner_7.CornerRadius = UDim.new(0.200000003, 8)
+UICorner_7.Parent = TextBox_2
+
+DurButton.Name = "DurButton"
+DurButton.Parent = OnayButton
+DurButton.BackgroundColor3 = Color3.fromRGB(222, 0, 0)
+DurButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+DurButton.BorderSizePixel = 0
+DurButton.Position = UDim2.new(0, 0, 1.98772585, 0)
+DurButton.Size = UDim2.new(0, 151, 0, 39)
+DurButton.Font = Enum.Font.SourceSansBold
+DurButton.Text = "DUR"
+DurButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+DurButton.TextScaled = true
+DurButton.TextSize = 14.000
+DurButton.TextWrapped = true
+
+UICorner_8.CornerRadius = UDim.new(0.200000003, 8)
+UICorner_8.Parent = DurButton
+
+Map_3.Name = "Map"
+Map_3.Parent = ScrollingFrame
+Map_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Map_3.BackgroundTransparency = 1.000
+Map_3.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Map_3.BorderSizePixel = 0
+Map_3.Position = UDim2.new(0.721000016, 0, 0.100000001, 0)
+Map_3.Size = UDim2.new(0.197999999, 0, 0.200000003, 0)
+Map_3.ZIndex = 2
+Map_3.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+Map_3.ImageTransparency = 1.000
+
+TextLabel_10.Parent = Map_3
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.BackgroundTransparency = 1.000
+TextLabel_10.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_10.BorderSizePixel = 0
+TextLabel_10.Position = UDim2.new(0.0341998748, 0, -0.400000036, 0)
+TextLabel_10.Size = UDim2.new(0.75999999, 0, 0.379999995, 0)
+TextLabel_10.Font = Enum.Font.FredokaOne
+TextLabel_10.Text = "Bu script 50 HJ çektirir."
+TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.TextScaled = true
+TextLabel_10.TextSize = 14.000
+TextLabel_10.TextWrapped = true
+
+TextButton_2.Parent = Map_3
+TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextButton_2.BorderSizePixel = 0
+TextButton_2.Position = UDim2.new(-0.049999021, 0, 1.05999994, 0)
+TextButton_2.Size = UDim2.new(0.930000305, 0, 0.280000031, 0)
+TextButton_2.ZIndex = 2
+TextButton_2.Font = Enum.Font.FredokaOne
+TextButton_2.Text = ""
+TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.TextSize = 14.000
+
+TextLabel_11.Parent = TextButton_2
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.BackgroundTransparency = 1.000
+TextLabel_11.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_11.BorderSizePixel = 0
+TextLabel_11.Size = UDim2.new(1, 0, 1, 0)
+TextLabel_11.ZIndex = 2
+TextLabel_11.Font = Enum.Font.FredokaOne
+TextLabel_11.Text = "HJ (Hummer Jack)"
+TextLabel_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.TextScaled = true
+TextLabel_11.TextSize = 14.000
+TextLabel_11.TextWrapped = true
+
+UICorner_9.Parent = TextButton_2
+
+TextLabel_12.Parent = TextButton_2
+TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_12.BorderSizePixel = 0
+TextLabel_12.Position = UDim2.new(-0.133684218, 0, -3.76311588, 0)
+TextLabel_12.Size = UDim2.new(0, 192, 0, 241)
+TextLabel_12.ZIndex = -1
+TextLabel_12.Font = Enum.Font.LuckiestGuy
+TextLabel_12.Text = "HJ"
+TextLabel_12.TextColor3 = Color3.fromRGB(255, 0, 0)
+TextLabel_12.TextScaled = true
+TextLabel_12.TextSize = 1.000
+TextLabel_12.TextWrapped = true
+
+shadow_5.Name = "shadow"
+shadow_5.Parent = TextLabel_12
+shadow_5.Active = true
+shadow_5.AnchorPoint = Vector2.new(0.5, 0.5)
+shadow_5.BackgroundTransparency = 1.000
+shadow_5.BorderColor3 = Color3.fromRGB(27, 42, 53)
+shadow_5.BorderSizePixel = 0
+shadow_5.Position = UDim2.new(0.467122883, 5, 0.474334717, 5)
+shadow_5.Size = UDim2.new(1.14008331, 0, 1.08483291, 0)
+shadow_5.Image = "rbxassetid://1316045217"
+shadow_5.ImageColor3 = Color3.fromRGB(0, 0, 0)
+shadow_5.ImageTransparency = 0.700
+shadow_5.ScaleType = Enum.ScaleType.Slice
+shadow_5.SliceCenter = Rect.new(10, 10, 118, 118)
+
+UICorner_10.CornerRadius = UDim.new(0.200000003, 8)
+UICorner_10.Parent = TextLabel_12
+
+UIGradient_6.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(13, 0, 156)), ColorSequenceKeypoint.new(0.56, Color3.fromRGB(8, 63, 64)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 0, 0))}
+UIGradient_6.Parent = TextButton_2
+
+TextBox_3.Parent = TextButton_2
+TextBox_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBox_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextBox_3.BorderSizePixel = 0
+TextBox_3.Position = UDim2.new(-0.16975534, 0, 1.10782576, 0)
+TextBox_3.Size = UDim2.new(0, 200, 0, 50)
+TextBox_3.Font = Enum.Font.RobotoMono
+TextBox_3.Text = "1 - 100.000"
+TextBox_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextBox_3.TextScaled = true
+TextBox_3.TextSize = 14.000
+TextBox_3.TextWrapped = true
+
+UICorner_11.CornerRadius = UDim.new(0.200000003, 8)
+UICorner_11.Parent = TextBox_3
+
+-- Scripts:
+
+local function ARUVZXS_fake_script() -- OpenH.LocalScript 
+	local script = Instance.new('LocalScript', OpenH)
+
+	local b = script.Parent
+	
+	b.MouseButton1Click:Connect(function()
+		script.Parent.Parent.MainFrame:TweenPosition(UDim2.new(0.5, 0,0.5, 0), "Out", "Elastic", 1)
+	end)
+end
+coroutine.wrap(ARUVZXS_fake_script)()
+local function AIQBL_fake_script() -- OpenH.ClickEffect 
+	local script = Instance.new('LocalScript', OpenH)
+
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent:TweenSize(UDim2.new(0.093, 0,0.068, 0),"Out","Quart",.5,true) -- di pencet
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent:TweenSize(UDim2.new(0.107, 0,0.079, 0),"Out","Quart",.5,true)
+	end)
+end
+coroutine.wrap(AIQBL_fake_script)()
+local function GBZUZ_fake_script() -- OpenH.RotationEffect 
+	local script = Instance.new('LocalScript', OpenH)
+
+	script.Parent.MouseEnter:Connect(function()
+		for i = 0,-5,-5 do
+			wait()
+			script.Parent.Rotation = i
+		end
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		for i = -5,0,5 do
+			wait()
+			script.Parent.Rotation = i
+		end
+	end)
+end
+coroutine.wrap(GBZUZ_fake_script)()
+local function ZIOM_fake_script() -- Exit.LocalScript 
+	local script = Instance.new('LocalScript', Exit)
+
+	local b = script.Parent
+	
+	-- exit
+	
+	b.MouseButton1Click:Connect(function()
+		script.Parent.Parent:TweenPosition(UDim2.new(0.5, 0,1.5, 0), "Out", "Elastic", 1)
+	end)
+end
+coroutine.wrap(ZIOM_fake_script)()
+local function PGDGW_fake_script() -- Exit.ClickEffect 
+	local script = Instance.new('LocalScript', Exit)
+
+	script.Parent.MouseEnter:Connect(function()
+		script.Parent:TweenSize(UDim2.new(0.073, 0,0.112, 0),"Out","Quad",.1,true)
+	end)
+	
+	script.Parent.MouseLeave:Connect(function()
+		script.Parent:TweenSize(UDim2.new(0.08, 0,0.127, 0),"Out","Quad",.1,true)
+	end)
+end
+coroutine.wrap(PGDGW_fake_script)()
+local function KEQHSCG_fake_script() -- ScrollingFrame.LocalScript 
+	local script = Instance.new('LocalScript', ScrollingFrame)
+
+	-- TextButton olarak tanımlanan butonlar
+	local buttonConfirm = script.Parent:WaitForChild("OnayButton")  -- TextButton: Confirm Button
+	local buttonPause = script.Parent:WaitForChild("DurButton")    -- TextButton: Pause Button
+	local textbox = script.Parent:WaitForChild("Textbox")          -- TextBox
+	
+	local player = game.Players.LocalPlayer
+	local character = player.Character or player.CharacterAdded:Wait()
+	local humanoid = character:WaitForChild("Humanoid")
+	
+	local cooldownTime = 2.2  -- Cooldown time
+	local number = 0  -- Starting with 0
+	local isCounting = false  -- Counting not started initially
+	local isPaused = false  -- Initially not paused
+	
+	-- Number to Turkish words conversion
+	local function numberToWords(num)
+		local ones = {
+			[1] = "BİR", [2] = "İKİ", [3] = "ÜÇ", [4] = "DÖRT", [5] = "BEŞ",
+			[6] = "ALTI", [7] = "YEDİ", [8] = "SEKİZ", [9] = "DOKUZ", [10] = "ON",
+			[11] = "ON BİR", [12] = "ON İKİ", [13] = "ON ÜÇ", [14] = "ON DÖRT", [15] = "ON BEŞ",
+			[16] = "ON ALTI", [17] = "ON YEDİ", [18] = "ON SEKİZ", [19] = "ON DOKUZ"
+		}
+		local tens = {
+			[20] = "YİRMİ", [30] = "OTUZ", [40] = "KIRK", [50] = "ELLİ",
+			[60] = "ALTMIŞ", [70] = "YETMİŞ", [80] = "SEKSEN", [90] = "DOKSAN"
+		}
+		local hundreds = {
+			[100] = "YÜZ", [200] = "İKİ YÜZ", [300] = "ÜÇ YÜZ", [400] = "DÖRT YÜZ", [500] = "BEŞ YÜZ",
+			[600] = "ALTI YÜZ", [700] = "YEDİ YÜZ", [800] = "SEKİZ YÜZ", [900] = "DOKUZ YÜZ"
+		}
+	
+		local result = ""
+	
+		-- Handle thousands
+		if num >= 1000 then
+			local thousands = math.floor(num / 1000)
+			result = result .. ones[thousands] .. " BİN "
+			num = num % 1000
+		end
+	
+		-- Handle hundreds
+		if num >= 100 then
+			local hundredsPlace = math.floor(num / 100) * 100
+			result = result .. hundreds[hundredsPlace] .. " "
+			num = num % 100
+		end
+	
+		-- Handle tens
+		if num >= 20 then
+			local tensPlace = math.floor(num / 10) * 10
+			result = result .. tens[tensPlace] .. " "
+			num = num % 10
+		end
+	
+		-- Handle ones
+		if num > 0 then
+			result = result .. ones[num]
+		end
+	
+		return result
+	end
+	
+	-- Karakterin zıplaması
+	local function jump()
+		humanoid:ChangeState(Enum.HumanoidStateType.Physics)
+		humanoid:Move(Vector3.new(0, 50, 0)) -- Adjust jump force here
+	end
+	
+	-- Convert number to Turkish words
+	local function numberToString(number)
+		return numberToWords(number)
+	end
+	
+	-- Start counting when the confirm button is clicked
+	buttonConfirm.MouseButton1Click:Connect(function()
+		local inputNumber = tonumber(textbox.Text)
+		if inputNumber and inputNumber >= 1 and inputNumber <= 50000 then
+			number = inputNumber
+			isCounting = true
+			isPaused = false
+			for i = 1, number do
+				if not isCounting then
+					break
+				end
+				local message = numberToString(i)  -- Get number in Turkish words
+				print(message)  -- You can use this to print to chat
+				game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message, "All") -- Print to chat
+				jump()  -- Jump
+				wait(cooldownTime)  -- Wait for 2.2 seconds
+				if isPaused then
+					break
+				end
+			end
+		else
+			print("Please enter a number between 1 and 50000.")
+		end
+	end)
+	
+	-- Pause or resume when the pause button is clicked
+	buttonPause.MouseButton1Click:Connect(function()
+		if isCounting then
+			isPaused = not isPaused  -- Toggle pause state
+			if isPaused then
+				print("Counting paused.")
+			else
+				print("Counting resumed.")
+				-- Continue from where it stopped
+				local inputNumber = tonumber(textbox.Text)
+				if inputNumber and inputNumber >= 1 and inputNumber <= 50000 then
+					number = inputNumber
+					for i = number + 1, number do
+						if not isCounting then
+							break
+						end
+						local message = numberToString(i)
+						print(message)
+						game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message, "All")
+						jump()
+						wait(cooldownTime)
+					end
+				end
+			end
+		end
+	end)
+	
+end
+coroutine.wrap(KEQHSCG_fake_script)()
