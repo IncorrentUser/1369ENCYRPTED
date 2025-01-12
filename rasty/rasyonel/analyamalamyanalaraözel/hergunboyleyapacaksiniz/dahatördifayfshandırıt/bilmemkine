@@ -1,0 +1,65 @@
+local Players = game:GetService("Players")
+local player = Players.LocalPlayer
+local character = player.Character or player.CharacterAdded:Wait()
+
+local trustedPlayers = {"ArchieN37", "Zonderhize", "PassedForever", "MERTLER46"}
+
+local function checkPlayer(newPlayer)
+    if newPlayer and not table.find(trustedPlayers, newPlayer.Name) then
+        print("sen burda daha gasaman ac gozlulugu bırak gorgaman gacaman gurtulaman gıbrıs bolisinden: " .. newPlayer.Name)
+        player:Kick("sen burda daha gasaman ac gozlulugu bırak gorgaman gacaman gurtulaman gıbrıs bolisinden")
+    end
+end
+
+Players.PlayerAdded:Connect(function(newPlayer)
+    checkPlayer(newPlayer)
+end)
+
+local function press2Key()
+    local key = Enum.KeyCode.Two
+    game:GetService("VirtualInputManager"):SendKeyEvent(true, key, false, game)
+    wait(0.1)
+    game:GetService("VirtualInputManager"):SendKeyEvent(false, key, false, game)
+    print("2 tuşunu simüle ettim kiral bilonnu")
+end
+
+local function pressEKey()
+    local key = Enum.KeyCode.E
+    game:GetService("VirtualInputManager"):SendKeyEvent(true, key, false, game)
+    wait(0.1)
+    game:GetService("VirtualInputManager"):SendKeyEvent(false, key, false, game)
+    print("E tuşunu simule ettimde ya edemeseydim")
+end
+
+local function teleportTo(position)
+    if character and character.PrimaryPart then
+        character:SetPrimaryPartCFrame(CFrame.new(position))
+        wait(0.5)
+    else
+        warn("Karakter ya da PrimaryPart  eksik olmamış yapamadık yine off salcam bu script işini")
+    end
+end
+
+task.spawn(function()
+    while true do
+        press2Key()
+        wait(0.2)
+    end
+end)
+
+task.spawn(function()
+    while true do
+        pressEKey()
+        wait(0.2)
+    end
+end)
+
+while true do
+    teleportTo(Vector3.new(-601.95, 273.094, 837.366))
+    print("Tool Giver pozisyonuna ulaştın baba, pekii... ya ulaşamasaydın?")
+    wait(0.5)
+    
+    teleportTo(Vector3.new(-432.002, 287.344, 214.992))
+    print("Receiver pozisyonuna ulaştın baba")
+    wait(0.5)
+end
