@@ -11,7 +11,7 @@ local function teleportTo(position)
     if character and character.PrimaryPart then
         -- Işınlama
         character:SetPrimaryPartCFrame(CFrame.new(position))
-        wait(0.5) -- Işınlanma sonrası bekleme süresi (0.5 saniye)
+        wait(0.5) 
     else
         warn("cidden sıkıntı")
     end
@@ -27,4 +27,5 @@ while true do
     teleportTo(toolReceiverPosition)
     
     wait(0.5)
+
 end
