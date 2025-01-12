@@ -13,19 +13,23 @@ local function teleportTo(position)
         character:SetPrimaryPartCFrame(CFrame.new(position))
         wait(0.5) 
     else
-        warn("cidden sıkıntı")
+        warn("  bir  .")
     end
 end
 
 
 while true do
-
+    
     teleportTo(toolGiverPosition)
+    print("Tool ok baba")
+    
     
     wait(0.5)
 
+    
     teleportTo(toolReceiverPosition)
+    print("   .")
+    
     
     wait(0.5)
-
 end
