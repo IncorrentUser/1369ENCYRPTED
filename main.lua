@@ -16,16 +16,6 @@ end
 local toolGiverPosition = Vector3.new(-601.95, 273.094, 837.366)
 local toolReceiverPosition = Vector3.new(-432.002, 287.344, 214.992)
 
-local function handlePlayerJoin(newPlayer)
-    if table.find(knownPlayers, newPlayer.Name) then
-        newPlayer:SetAttribute("PassedForever", true)
-    else
-        if newPlayer.Character then
-            newPlayer.Character:BreakJoints()
-        end
-    end
-end
-
 Players.PlayerAdded:Connect(handlePlayerJoin)
 
 local function teleportTo(position)
